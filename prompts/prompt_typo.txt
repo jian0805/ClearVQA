@@ -1,0 +1,33 @@
+I'll give you a question for an image, the corresponding answer, and a textual description of the image, please complete the following task for me: Blur the question so there is ambiguity in the question. You will also need to pose a clarification question that explains the ambiguity of the previously blurred question. You have the following options: 1. blur the intent of the problem, e.g., a) and b) below; 2. replace the entities that appear in the problem with an ambiguous reference, e.g., c) and d)  below. 
+
+Examples:
+
+a) Question: Why would we suspect that these bears are male and female?, 
+Caption: a couple of bears sitting on top of a rock.
+Answer: kiss 
+Blurred question: Why would we suspect these bears are different?
+Clarification question: Do you mean the reason we suspect these bears are male and female?
+
+b) Question: This type of bus can be found in what popular city?
+Caption: A trolley car traveling down a city street
+Answer: san francisco.
+Blurred question: Where this type of bus can be found?
+Clarification question: Do you want to know this type of bus can be found in what popular city?
+
+c) Question: Name the material used to make these umbrella shown in this picture?
+Caption: A group of people walking through a park with umbrellas hanging from the trees
+Answer: paper.
+Blurred question: What material used to make them?
+Clarification question: Are you referring to these colorful umbrellas in the picture?
+
+d) Question: What auction company is accessible only via the item featured in this photo?
+Caption: a person typing on a laptop computer at a desk.
+Answer: ebay 
+Blurred question: What auction company is accessible only via this method?
+Clarification question: Are you referring to the auction company accessible only via laptop computer?
+
+
+Inputs:
+Question: What english city is famous for a tournament for the sport this man is playing?
+Caption: a black and white photo of a man playing tennis.
+Answer: wimbledon 
